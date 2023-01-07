@@ -22,7 +22,11 @@
     background-position: center;
     background-size: cover;
 }
-
+/* Main Section */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 /* Banner Styles */
 .banner{
     margin-left: 900px;
