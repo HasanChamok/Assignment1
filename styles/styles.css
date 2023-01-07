@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{      
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+}
+/* Header Styles */
+.header{
+    width: max-width;
+    height: 809px;
+    background: #FFF8F3;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Banner Styles */
+.banner{
+    margin-left: 900px;
+    margin-right: 250px;
+    display: flex;
+    align-items: right;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+.banner-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 270px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+.banner .btn-primary{
+    float: right;
+}
+
+/* About Styles */
+.about{
+    margin: 130px 250px;
+    display: flex;
+    gap: 90px;
+}
+.about-title{
+    margin-top: 250px;
+    margin-right: 450px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.about-description{
+    margin-top: 30px;
+    font-weight: 400;
+    margin-right: 300px;
+    font-size: 16px;
+    color: #444343;
+    text-align: left;
+}
+.about-list{ 
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* My PLans Styles */
+.plans{
+    margin-top: 130px;
+    margin-left: 230px;
+}
+.plans .plans-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-bottom: 130px;
+    align-items: center;
+}
+.skill img{
+    margin-top: 50px;
+}
+.skill-title{
+    margin-top: 30px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.skill-description{
+    margin-top: 20px;
+    color: #757575;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* image with gradient styles */
+.gradient{
+    margin: 130px 200px;
+    height: 400px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    align-items: left;
+}
+.gradient p{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 70px 900px 30px 64px;
+}
+.btn-grad{
+    margin-left: 65px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;;
+    color: #FD6E0A;
+}
+
+/* Footer section(contact) */
+.contact{
+    background: #151414;
+    display: flex;
+    gap: 300px;
+}
+.section{
+    
+    margin-left: 230px;
+    margin-top: 130px;
+    width: 650px;
+    margin-bottom: 130px;
+}
+.contact .section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.contact .section-description{
+    text-align: left;
+    color: #F8F8F8;
+    padding-right: 200px;
+    margin-bottom: 15px;
+}
+.contact .section-email, .section-phone{
+    text-align: left;
+    padding-right: 470px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.contact .contact-icons{
+    display:flex;
+    gap: 16px;
+}
+/* form of the footer */
+.form{
+    margin-left: 0px;
+    width: 300px;
+    margin-bottom: 130px;
+}
+.form .form-title{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.form input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    background-color: #151414;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+    border: solid #FFFFFF;
+}
+.form input[type="submit"]{
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;;
+    color: #FD6E0A;
+}
