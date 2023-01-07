@@ -24,7 +24,7 @@
 }
 /* Main Section */
 main{
-    max-width: 1600px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 /* Banner Styles */
@@ -163,7 +163,7 @@ main{
     
     margin-left: 230px;
     margin-top: 130px;
-    width: 650px;
+    width: 50%;
     margin-bottom: 130px;
 }
 .contact .section-title{
@@ -190,8 +190,8 @@ main{
 }
 /* form of the footer */
 .form{
-    margin-left: 0px;
-    width: 300px;
+    margin-left: 0;
+    width: 50%;
     margin-bottom: 130px;
 }
 .form .form-title{
@@ -204,7 +204,7 @@ main{
 .form input[type="email"]{
     margin-bottom: 24px;
     border: 0;
-    width: 100%;
+    width: 70%;
     padding: 18px 30px;
     background-color: #151414;
     border-color: #FFFFFF;
