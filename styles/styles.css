@@ -22,11 +22,6 @@
     background-position: center;
     background-size: cover;
 }
-/* Main Section */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
 /* Banner Styles */
 .banner{
     margin-left: 900px;
@@ -53,24 +48,29 @@ main{
 .banner .btn-primary{
     float: right;
 }
-
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About Styles */
 .about{
-    margin: 130px 250px;
+    margin-top: 130px;
+    margin-bottom: 130px;
     display: flex;
     gap: 90px;
 }
 .about-title{
-    margin-top: 250px;
-    margin-right: 450px;
+    margin-top: 260px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    padding-right: 50px;
 }
 .about-description{
     margin-top: 30px;
     font-weight: 400;
-    margin-right: 300px;
+    padding-right: 97px;
     font-size: 16px;
     color: #444343;
     text-align: left;
@@ -85,24 +85,27 @@ main{
 /* My PLans Styles */
 .plans{
     margin-top: 130px;
-    margin-left: 230px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right:230px;
+    align-items: center;
 }
 .plans .plans-title{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     text-align: center;
+    margin-bottom: 50px;
 }
 .plan-container{
     display: flex;
-    gap: 90px;
     align-items: center;
+    gap: 90px;
 }
 .skill{
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    margin-left: 80px;
     margin-bottom: 130px;
     align-items: center;
 }
@@ -126,20 +129,21 @@ main{
 
 /* image with gradient styles */
 .gradient{
-    margin: 130px 200px;
-    height: 400px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    height: 300px;
+    width: 100%;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 8px;
-    align-items: left;
 }
 .gradient p{
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
     text-align: left;
-    padding: 70px 900px 30px 64px;
+    padding: 55px 600px 30px 64px;
 }
 .btn-grad{
     margin-left: 65px;
@@ -157,12 +161,12 @@ main{
 .contact{
     background: #151414;
     display: flex;
-    gap: 300px;
 }
 .section{
     
     margin-left: 230px;
     margin-top: 130px;
+    margin-right: 170px;
     width: 50%;
     margin-bottom: 130px;
 }
@@ -190,7 +194,7 @@ main{
 }
 /* form of the footer */
 .form{
-    margin-left: 0;
+    margin-left: 170px;
     width: 50%;
     margin-bottom: 130px;
 }
@@ -202,7 +206,7 @@ main{
     margin-bottom: 30px;
 }
 .form input[type="email"]{
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     border: 0;
     width: 70%;
     padding: 18px 30px;
@@ -212,7 +216,7 @@ main{
     border: solid #FFFFFF;
 }
 .form input[type="submit"]{
-    height: 64px;
+    height: 65px;
     font-weight: 700;
     font-size: 20px;
     border: 0;
