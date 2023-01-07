@@ -206,7 +206,7 @@ main{
 }
 /* form of the footer */
 .form{
-    margin-left: 170px;
+    margin-left: 50px;
     width: 50%;
     margin-bottom: 130px;
 }
@@ -220,12 +220,13 @@ main{
 .form input[type="email"]{
     margin-bottom: 25px;
     border: 0;
-    width: 70%;
+    width: 50%;
     padding: 18px 30px;
     background-color: #151414;
     border-color: #FFFFFF;
     border-radius: 8px;
     border: solid #FFFFFF;
+    margin-right: 100px;
 }
 .form input[type="submit"]{
     height: 65px;
